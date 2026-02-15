@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+body {
+  @apply bg-slate-50 text-slate-900;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Retro Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dc2626;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b91c1c;
+}
+
+.font-retro {
+  font-family: 'Press Start 2P', cursive;
+}
