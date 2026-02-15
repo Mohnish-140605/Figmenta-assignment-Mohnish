@@ -113,9 +113,9 @@ To ensure the codebase scales like a production app:
 ## ⏱️ Time Spent
 
 *   **Total Duration**: ~1.5hours
-    *   **Core Development**: 1.5 Hours
-    *   **UI/UX Polish (Retro Theme)**: 45 Minutes
-    *   **Deployment Configuration & Debugging**: 45 Minutes
+    *   **Core Development**: 45mins
+    *   **UI/UX Polish (Retro Theme)**: 25 Minutes
+    *   **Deployment Configuration & Debugging**: 50min 
 
 ## 🧐 Assumptions Made
 
