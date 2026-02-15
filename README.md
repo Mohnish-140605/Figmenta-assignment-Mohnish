@@ -113,5 +113,7 @@ npm test
 
 ---
 <img width="2433" height="1826" alt="image" src="https://github.com/user-attachments/assets/bf3bca48-7e8c-4435-9bd5-c912d1dcd864" />
+<img width="2564" height="1614" alt="image" src="https://github.com/user-attachments/assets/33ef33cd-3e90-4abe-9406-daa83be2ebc0" />
+
 
 *Built for the [Figmenta Technical Assignment](https://figmenta.com/).*
