@@ -112,8 +112,14 @@ npm test
 ```
 
 ---
+<img width="2270" height="1790" alt="image" src="https://github.com/user-attachments/assets/0f284981-26f8-4ef2-9bd1-8079b1d5988d" />
+<img width="1946" height="1725" alt="image" src="https://github.com/user-attachments/assets/f6d74236-c694-4af2-b272-8977d1c492ba" />
+<img width="2875" height="1617" alt="image" src="https://github.com/user-attachments/assets/3546cfc4-21f7-4eba-af2d-5d086a721c06" />
 <img width="2433" height="1826" alt="image" src="https://github.com/user-attachments/assets/bf3bca48-7e8c-4435-9bd5-c912d1dcd864" />
 <img width="2564" height="1614" alt="image" src="https://github.com/user-attachments/assets/33ef33cd-3e90-4abe-9406-daa83be2ebc0" />
+<img width="2189" height="1535" alt="image" src="https://github.com/user-attachments/assets/f72cf3b5-7069-4777-9f64-6484fa620a04" />
+
+
 
 
 *Built for the [Figmenta Technical Assignment](https://figmenta.com/).*
