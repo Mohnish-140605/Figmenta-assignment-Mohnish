@@ -112,5 +112,6 @@ npm test
 ```
 
 ---
+<img width="2433" height="1826" alt="image" src="https://github.com/user-attachments/assets/bf3bca48-7e8c-4435-9bd5-c912d1dcd864" />
 
 *Built for the [Figmenta Technical Assignment](https://figmenta.com/).*
