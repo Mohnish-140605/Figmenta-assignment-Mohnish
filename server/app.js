@@ -81,6 +81,8 @@ const checkUrlHealth = (url) => {
     }
 };
 
+const router = express.Router();
+
 // Metadata Fetching Helper
 const fetchMetadata = async (url) => {
     try {
@@ -97,7 +99,7 @@ const fetchMetadata = async (url) => {
     }
 };
 
-app.get('/bookmarks', (req, res) => {
+router.get('/bookmarks', (req, res) => {
     const { tag, page = 1, limit = 10 } = req.query;
 
     let filtered = bookmarks;
@@ -124,7 +126,7 @@ app.get('/bookmarks', (req, res) => {
     });
 });
 
-app.post('/bookmarks', async (req, res) => {
+router.post('/bookmarks', async (req, res) => {
     let { url, title, description, tags } = req.body;
 
     if (!url) {
@@ -153,7 +155,7 @@ app.post('/bookmarks', async (req, res) => {
     res.status(201).json(newBookmark);
 });
 
-app.put('/bookmarks/:id', (req, res) => {
+router.put('/bookmarks/:id', (req, res) => {
     const { id } = req.params;
     const { url, title, description, tags } = req.body;
 
@@ -177,7 +179,7 @@ app.put('/bookmarks/:id', (req, res) => {
     res.json(bookmarks[index]);
 });
 
-app.delete('/bookmarks/:id', (req, res) => {
+router.delete('/bookmarks/:id', (req, res) => {
     const { id } = req.params;
     const initialLength = bookmarks.length;
     bookmarks = bookmarks.filter(b => b.id !== id);
@@ -188,5 +190,9 @@ app.delete('/bookmarks/:id', (req, res) => {
 
     res.status(204).send();
 });
+
+// Mount Router
+app.use('/api', router);
+app.use('/', router);
 
 module.exports = app;

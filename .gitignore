@@ -3,6 +3,11 @@ node_modules
 .pnp
 .pnp.js
 
+# Production
+dist
+public
+build
+
 # Testing
 coverage
 

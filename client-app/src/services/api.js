@@ -1,8 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.PROD
-    ? '/api/bookmarks'
-    : 'http://localhost:5000/bookmarks';
+const API_URL = '/api/bookmarks';
 
 export const fetchBookmarks = async (search = '', filter = '', page = 1, limit = 999) => {
     try {
