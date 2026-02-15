@@ -20,7 +20,8 @@ export const useBookmarks = (searchQuery, filterType) => {
             setError(null);
         } catch (err) {
             console.error("Load Error:", err);
-            const msg = err.response?.data?.error || err.message || "Failed to load data.";
+            const status = err.response?.status ? ` (Status: ${err.response.status})` : '';
+            const msg = (err.response?.data?.error || err.message || "Failed to load data.") + status;
             setError(msg);
         } finally {
             setIsLoading(false);

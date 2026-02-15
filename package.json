@@ -21,6 +21,7 @@
     "express": "^5.2.1",
     "express-rate-limit": "^8.2.1",
     "postcss": "^8.5.6",
+    "serverless-http": "^4.0.0",
     "tailwindcss": "^4.1.18",
     "uuid": "^13.0.0"
   }
