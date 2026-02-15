@@ -121,8 +121,7 @@ To ensure the codebase scales like a production app:
 
 1.  **Persistence**: Data is stored in-memory for this assignment. A real-world app would use a database (PostgreSQL/MongoDB).
 2.  **Authentication**: Simple mock authentication is sufficient to demonstrate the protected route flow.
-3.  **Deployment**: Vercel is the target platform, necessitating the specific `vercel.json` and build scripts.
-4.  **Browser Support**: Modern browsers (Chrome/Edge/Firefox) with support for CSS Grid and Flexbox.
+3.  **Browser Support**: Modern browsers (Chrome/Edge/Firefox) with support for CSS Grid and Flexbox.
 
 ---
 
