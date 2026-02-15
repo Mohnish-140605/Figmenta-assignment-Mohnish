@@ -55,18 +55,18 @@ const Dashboard = ({ darkMode, toggleTheme, onLogout }) => {
 
     const handleAddBookmark = async (bookmark) => {
         const result = await addBookmark(bookmark);
-        if (!result.success) alert(result.error);
+        if (!result.success) alert(typeof result.error === 'object' ? JSON.stringify(result.error) : result.error);
     };
 
     const handleDeleteBookmark = async (id) => {
         if (!window.confirm('Are you sure?')) return;
         const result = await removeBookmark(id);
-        if (!result.success) alert(result.error);
+        if (!result.success) alert(typeof result.error === 'object' ? JSON.stringify(result.error) : result.error);
     };
 
     const handleUpdateBookmark = async (id, updatedData) => {
         const result = await editBookmark(id, updatedData);
-        if (!result.success) alert(result.error);
+        if (!result.success) alert(typeof result.error === 'object' ? JSON.stringify(result.error) : result.error);
         setIsEditModalOpen(false);
     };
 
