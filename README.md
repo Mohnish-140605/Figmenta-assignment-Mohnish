@@ -142,6 +142,8 @@ npm test
 <img width="2189" height="1535" alt="image" src="https://github.com/user-attachments/assets/f72cf3b5-7069-4777-9f64-6484fa620a04" />
 
 
+https://www.loom.com/share/65f956f1f20a4df7a7d543913bbce26b
+
 
 
 *Built for the [Figmenta Technical Assignment](https://figmenta.com/).*
