@@ -1,5 +1,4 @@
-# 🔖 Bookmark Manager (Figmenta Edition)
-
+# 🔖 Bookmark Manager 
 > **"Unleash Your Imagination. Future Proof Your Digital Assets."**
 
 A retro-futuristic bookmark manager that combines the raw energy of 8-bit arcade aesthetics with modern, scalable React architecture. Designed with the Figmenta brand voice in mind—Classy, Sophisticated, and Brave.
